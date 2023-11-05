@@ -410,143 +410,122 @@ body{
   }
 
   /* Plan section */
-.plan-content{
-    text-align: center;
+.plan-content-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     padding-top: 40px;
     padding-bottom: 35px;
     margin: 20px;
 }
 
-.plan-content .plan-subtext{
+.plan-content-first .plan-subtext{
     color: white;
 }
 
-.plan-content .text{
+.plan-content-first .text{
     padding-bottom: 20px;
 }
 
-.plan-content  .plan-sub-text{
+.plan-content-first  .plan-sub-text{
     color: white;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.plan-option-container{
-    border-top: 1px solid hsla(0,0%,78.4%,.4);
-}
 
-.plan-toggle-container{
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    top: 0;
-    padding: 80px 0;
-    padding-right: 600px;
-}
-
-.plan-toggle{
-    display: -webkit-flex;
-    display: -moz-box;
+.type-of-plan-container{
     display: flex;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
     justify-content: center;
+    align-items: center;
 }
 
-.plan-baseplan{
-    color: white;
-    padding-right: 20px;
-    text-transform: uppercase;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.plan-bundle{
-    color: white;
-    padding-left: 20px;
-    text-transform: uppercase;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.plan-logo{
-    width:42px;
-    margin: 20px;
-    margin-top: 35px;
-}
-
-.plan-logos{
-    width: 155px;
-    margin: 20px;
-}
-
-.card-0-badge{
-    text-transform: uppercase;
-    background-color: #00d87e;
-    border-radius: 30%;
-    width:150px;
-    height:25px;
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin: 10px;
+    padding: 20px;
 }
 
-.card-0-text ,.card-1-text{
-    color: #666666;
-    font-weight: bold;
+.plan .type-of-plan-badge{
+    background: #00d87e;
+    border-radius: 5%;
     text-transform: uppercase;
     padding: 10px;
+
 }
 
-.card-0-subtext, .card-1-subtext{
+.type-of-plan-time{
+    color: #686767;
+
+}
+
+.type-of-plan-hulu{
     color: white;
-    padding-bottom: 10px;
     font-weight: bold;
 }
 
-.card-0-content .btn ,.card-1-content .btn{
+.type-of-plan-text-1{
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.type-of-plan-text-2{
+    color: white;
+    text-transform: uppercase;
+}
+
+.type-of-plan-btn{
     display: inline-block;
     background-color: white;
     color: black;
     border: none;
-    padding: 15px 30px;
+    padding: 10px 80px;
     margin: 10px 0;
     text-transform: uppercase;
-    border-radius: 3%;
+    border-radius: 5%;
     font-weight: 600;
     line-height: 14px;
     font-size: 15px;
     letter-spacing: 1px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
-.plan-option-container {
-    display: flex; /* Use flex display to align the elements in a row */
-    justify-content: center; /* Horizontally center the elements */
-}
-
-.card-0-content {
+.monthly-plan{
     display: flex;
-    flex-direction: column;
-    color: white;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin: 0 20px 0 -50px; 
-    padding-left: 30px;
+    padding: 10px ;
+    margin:10px 0;
+    gap:300px;
+    color: white;
+    font-size: 15px;
 }
 
-.card-1-content {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    text-align: center;
-    margin: 0 -50px 0 20px; /* Adjust this value to move it to the right */
+.plan-content .divider{
+    margin:20px 0;
+    color: #928f8f;
 }
+
+.streaming-library{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    margin:10px 0;
+    gap:250px;
+    color: white;
+    font-size: 15px;
+}
+
 
 
 /* Footer */
 .footer{
-    background: #ebedf2;
+    background: #eaebee;
     color: #333;
     height: 500px;
 }

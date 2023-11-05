@@ -291,4 +291,64 @@ body{
     max-width: 600px; 
     font-size: 15px;
     margin-top: 20px;
+    font-size: 15px;
+}
+
+.live-content .live-legal-text{
+    text-align: center;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.live-content .legal-text{
+    margin-bottom: 30px;
+}
+
+/* Live sports */
+
+.live-sports{
+    background-image: url('/Assets/sports-bg.jpeg');
+    height: 800px;
+    position: relative;
+    background-size: cover;
+}
+
+.live-sports-content{
+    position:absolute;
+    top:160px;
+    left:100px;
+    max-width: 550px;
+}
+
+.live-sports-logo{
+    width:300px;
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.live-sports-logo >div{
+    background: url('/Assets/network-logo-bg.png') ;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.live-sports-logo img{
+    width: 40px;
+}
+
+.live-legal-text{
+    font-size: 10px;
+    color:#a8afbd;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+.live-legal-text a{
+    color:#a8afbd;
 }

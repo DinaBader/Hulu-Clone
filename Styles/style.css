@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: white;
+
+}
+.legal-text:hover{
+    opacity: 0.8;
+}
+
+body{
+    background-color: #0a0b0e;
+    overflow-x: hidden;
+    line-height: 1.2;
+    font-family:  'Roboto', sans-serif;
+}
+
+.background-image {
+    background-image: url('/Assets/main.jpeg'); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: right;
+    background-size: cover;
+    z-index: -1; 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    height: 12vh;
+    padding: 2%;
+}
+
+
+.logo{
+    height: 100%;
+    width: auto;
+}
+
+.navbar .logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo, .login-btn {
+    display: flex; 
+    align-items: center;
+}
+
+.login-btn button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #a8afbd;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content img{
+    width:270px;
+    margin: 20px;
+}
+
+.bundle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bundle img{
+    width: 200px;
+}
+
+.bundle-description{
+    margin: 5px 0;
+}
+.bundle-description h4{
+    margin: 0
+}
+
+.bundle h4{
+    margin: 5px 0;
+    color: #00d87e;
+    text-transform: uppercase;
+}
+
+.bundle .header-text{
+    font-size: 25px;
+    color: white;
+    margin: 5px 0;
+}
+
+.bundle .btn{
+    display: inline-block;
+    background-color: #00d87e;
+    color: black;
+    border: none;
+    padding: 10px 80px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5%;
+    font-weight: 600;
+    line-height: 14px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.bundle .btn:hover{
+    opacity: 0.8;
+}
+
+.bundle .legal-text {
+    font-size: 12px;
+}
+
+.legal-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.text{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.sub-text{
+    max-width: 850px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* Categories */
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16% 40px;
+    justify-content: center;
+}
+
+.categories .text,.sub-text{
+    margin-top: 20px;
+}
+
+.text, .sub-text, .cover-text{
+    color: white;
+}
+
+.categories h4{
+    color: #00d87e;
+    text-transform: uppercase;
+}
+
+.categories .covers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 40px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.categories .covers > div{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.categories .cover-grad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        156.82deg,
+        rgba(0,0,0,0.6) 4.58%,
+        rgba(0,0,0,0) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0,0,0,0.2) 4.71%, rgba(0,0,0,0) 71.49%)
+}
+
+.categories .covers .sub-title{
+    font-size: 11px;
+}
+
+.categories .cover-text{
+    position: absolute;
+    top:20px;
+    left:20px;
+    text-align: left;
+}
+
+.categories h3{
+    font-weight:lighter;
+}
+
+.cover-1{
+    background-image: url('/Assets/family-guy.png');
+}
+
+.cover-2{
+    background-image: url('/Assets/prey.jpeg');
+}
+
+.cover-3{
+    background-image: url('/Assets/only-murders-in-the-building.png');
+}
+
+.cover-4{
+    background-image: url('/Assets/the-sopranos.png');
+}
+
+/* Live section */
+.live-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.live-content h5{
+    color: #00d87e;
+    font-family:  'Roboto', sans-serif;
+    margin-top: -150px;
+}
+
+.live-content .btn-live{
+    display: inline-block;
+    background-color: #00d87e;
+    color: black;
+    border: none;
+    padding: 15px 26px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    border-radius: 3%;
+    font-weight: 600;
+    line-height: 14px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.live-content .live-legal-text{
+    font-size: 10px;
+    color: #a8afbd;
+    margin-bottom: 20px;
+}
+
+.live-content a{
+    color: #a8afbd;
+    font-weight: bold;
+}
+.live-content .sub-text {
+    text-align: center;
+    max-width: 600px; 
+    font-size: 15px;
+    margin-top: 20px;
+}

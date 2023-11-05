@@ -496,11 +496,11 @@ body{
     background-color: white;
     color: black;
     border: none;
-    padding: 10px 80px;
-    margin: 10px 0;
+    padding: 9px 80px;
+    margin: 9px 0;
     text-transform: uppercase;
     border-radius: 5%;
-    font-weight: 600;
+    font-weight: 580;
     line-height: 14px;
     font-size: 15px;
     letter-spacing: 1px;
@@ -511,8 +511,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px ;
-    margin:10px 0;
+    padding: 5px ;
+    margin:10px 5;
     gap:300px;
     color: white;
     font-size: 15px;
@@ -527,11 +527,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px ;
-    margin:10px 0;
-    gap:250px;
+    padding: 5px ;
+    margin:5px 0;
+    gap:310px;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .categoriess, .plann {
@@ -548,6 +548,8 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+
 
 /* Footer */
 .footer{

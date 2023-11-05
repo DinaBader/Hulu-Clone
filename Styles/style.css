@@ -380,10 +380,10 @@ body{
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
+    height: 37px;
+    width: 37px;
+    left: 0px;
+    bottom: 0px;
     background-color: rgb(247, 245, 245);
     -webkit-transition: .4s;
     transition: .4s;
@@ -402,7 +402,7 @@ body{
     transform: translateX(26px);
   }
     .slider.round {
-    border-radius: 34px;
+    border-radius: 30px;
   }
   
   .slider.round:before {
@@ -453,12 +453,17 @@ body{
     background: #00d87e;
     border-radius: 5%;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 15px;
 
+}
+
+.type-of-plan-badge-2{
+    padding: 32px;
 }
 
 .type-of-plan-time{
     color: #686767;
+    padding-top: 20px;
 
 }
 
@@ -467,15 +472,23 @@ body{
     font-weight: bold;
 }
 
-.type-of-plan-text-1{
+.type-of-plan-text-1,.type-of-plan-text-2{
     color: white;
     text-transform: uppercase;
-
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.type-of-plan-text-1{
+    padding-bottom: 27px;
+}
+.hulu{
+    width: 50px;
+    padding-top: 10px;
 }
 
-.type-of-plan-text-2{
-    color: white;
-    text-transform: uppercase;
+.hulu-espn{
+    width:150px;
 }
 
 .type-of-plan-btn{

@@ -518,10 +518,23 @@ body{
     margin:10px 0;
     gap:250px;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
 }
 
+.categoriess, .plann {
+    text-align: center; 
+    padding: 20px;      
+}
 
+.categoriess {
+    margin-bottom: 20px;
+}
+
+.categoriess h4, .plan h2, .plan-subtext, .plan-sub-text, .type-of-plan-text-1, .type-of-plan-text-2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 /* Footer */
 .footer{
@@ -531,7 +544,7 @@ body{
 }
 
 .footer a{
-    color: #333;
+    color: #6e7580;
 }
 
 .footer-container{
@@ -553,6 +566,8 @@ body{
 .footer-lists ul li{
     list-style-type: none;
     text-decoration: none;
+    margin-bottom: 10px;
+
 }
 
 .footer-lists .list-head{

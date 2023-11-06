@@ -132,6 +132,10 @@ body{
 
 }
 
+.fix .bundle-description{
+    padding-bottom: 15px;
+}
+
 .bundle .btn:hover{
     opacity: 0.8;
 }
